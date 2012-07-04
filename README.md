@@ -1,7 +1,15 @@
 wowlinks
 ========
 
-This awful gem generates links to Wowhead with quality colours and texture images. Works best with CSS like:
+This awful gem generates links to Wowhead with quality colours and texture images.
+
+Use like so:
+
+```ruby
+require 'wowlinks'
+
+puts Wowlinks::Item.new(41995).to_html
+```
 
 ```css
 .wowlinks {
