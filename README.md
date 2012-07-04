@@ -53,5 +53,3 @@ This awful gem generates links to Wowhead with quality colours and texture image
   }
 }
 ```
-
-It's also available as a plugin for [Middleman](http://middlemanapp.com); see [middleman-wowlinks](/dusknoir/middleman-wowlinks).
